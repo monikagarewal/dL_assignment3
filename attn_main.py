@@ -551,8 +551,8 @@ def get_prediction(pairs,encoder1, attn_decoder1):
       decoded_sentence, _ = evaluate(encoder1, attn_decoder1,input_seq)
       #print(decoded_sentence)
       predicted.append("".join(decoded_sentence[:-2]))
-      actual.append( pairs[seq_index][0].replace(" ",""))
-      inputs.append( pairs[seq_index][1].replace(" ",""))
+      inputs.append( pairs[seq_index][0].replace(" ",""))
+      actual.append( pairs[seq_index][1].replace(" ",""))
   return inputs, actual, predicted
 
 inputs, actual, predicted = get_prediction(pairs_test, encoder1, attn_decoder1)
