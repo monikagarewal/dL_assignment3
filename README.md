@@ -2,7 +2,7 @@
 
 Assignment 3 
 
-Hindi dataset was used from Google's Dakshina for trainging Seq2Seq models.
+Hindi dataset was used from Google's Dakshina for training Seq2Seq models.
 
 -main.py
 1. It contains multilayered seq2seq network with all the required functionality.
